@@ -135,3 +135,10 @@ jenkins@ip-172-31-40-62:~$
 ```
 
 ### NEXT, I WILL INSTALL KUBECTL - kubectl, allows you to run commands against Kubernetes clusters using the kubernetes API. 
+
+```
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+
+chmod +x ./kubectl 
+sudo mv ./kubectl /usr/local/bin
+```
