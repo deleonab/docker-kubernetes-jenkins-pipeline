@@ -9,5 +9,6 @@ SPIN EC2 INSTANCE FOR OUR JENKINS SERVER
 ```
 chmod 660
 ```
+![Ec2 created](./images/ec2-created.JPG)
 
 
