@@ -52,3 +52,13 @@ sudo apt install jenkins
 ```
 sudo systemctl status jenkins
 ```
+## I WILL NOW LOG INTO JENKINS VIA BROWSER USING THE ec2 instances public IP address on port 8080
+```
+3.8.206.166:8080
+```
+### got to /var/lib/jenkins/secrets/initialAdminPassword for Password
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+### copy and enter password on 3.8.206.166:8080
