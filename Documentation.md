@@ -85,3 +85,25 @@ jenkins ALL=(ALL) NOPASSWD: ALL
 sudo su - jenkins
 ```
 ![jenkins user](./images/jenkins-user.JPG)
+
+Now we need to install docker using the Jenkins user as it has root user privileges.
+
+```
+sudo apt install docker.io
+```
+Verify the installation
+
+``` 
+docker --version 
+```
+### As Jenkins will be accessing docker to build images , we need to add it to the docker grouo as it will be running some docker commands
+```
+sudo usermod -aG docker jenkins
+```
+### I ran docker image ls to see list of docker images
+```
+jenkins@ip-172-31-40-62:~$ docker image ls
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json": dial unix 
+/var/run/docker.sock: connect: permission denied
+jenkins@ip-172-31-40-62:~$ 
+```
