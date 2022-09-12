@@ -107,3 +107,18 @@ Got permission denied while trying to connect to the Docker daemon socket at uni
 /var/run/docker.sock: connect: permission denied
 jenkins@ip-172-31-40-62:~$ 
 ```
+### I need to restart the instance for tit to be updated with the new configuration
+
+### From the AWS console, select the reboot instance action.
+
+### log back into the instance
+### log in as the jenkins user
+```
+sudo su - jenkins
+```
+### Check docker command again by running docker image ls
+```
+jenkins@ip-172-31-40-62:~$ docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+jenkins@ip-172-31-40-62:~$
+```
