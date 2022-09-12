@@ -79,3 +79,9 @@ Assign admin priviledge and no password required
 ```
 jenkins ALL=(ALL) NOPASSWD: ALL
 ```
+### and then :wq! to save and quit vi
+### Now i have given jenkins the privileges it needs
+```
+sudo su - jenkins
+```
+![jenkins user](./images/jenkins-user.JPG)
