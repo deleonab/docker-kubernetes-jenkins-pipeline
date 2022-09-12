@@ -122,3 +122,16 @@ jenkins@ip-172-31-40-62:~$ docker image ls
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 jenkins@ip-172-31-40-62:~$
 ```
+
+### I will now install AWS CLI on the jenkins server
+```
+sudo apt install awscli
+```
+### Verify installation
+```
+jenkins@ip-172-31-40-62:~$ aws --version
+aws-cli/1.22.34 Python/3.10.4 Linux/5.15.0-1011-aws botocore/1.23.34
+jenkins@ip-172-31-40-62:~$ 
+```
+
+### NEXT, I WILL INSTALL KUBECTL - kubectl, allows you to run commands against Kubernetes clusters using the kubernetes API. 
