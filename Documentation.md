@@ -62,3 +62,20 @@ sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 ### copy and enter password on 3.8.206.166:8080
+
+- select Install suggested plugins option
+
+### WE NEED TO GIVE ADMIN PRIVILEGES TO JENKINS TO BE ABLE TO RUN OUR PIPELINE (DOCKER,GRADLE, KUBERNETES )
+To interact with the Kubernetes cluster, Jenkins will be executing the shell script with the Jenkins user, so the Jenkins user should have thenecessary privileges.
+
+I will add Jenkins as an administrator and assign NOPASSWD so that the root password wouldn't be requested when the pipeline is running.
+
+Open the file /etc/sudoers
+
+```
+sudo vi /etc/sudoers
+```
+Assign admin priviledge and no password required
+```
+jenkins ALL=(ALL) NOPASSWD: ALL
+```
