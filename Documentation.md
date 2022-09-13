@@ -142,3 +142,4 @@ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s ht
 chmod +x ./kubectl 
 sudo mv ./kubectl /usr/local/bin
 ```
+### Next I will install eksctl - for creating and managing clusters on EKS - Amazon's managed Kubernetes service for EC2
