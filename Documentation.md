@@ -154,3 +154,20 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 eksctl version
 ```
+### I will now create the kubernetes clusters as follows
+- Name of the cluster : --name dele-test-cluster
+- Version of Kubernetes : --version 1.17
+- Region : --name eu-west-2
+- Nodegroup name/worker nodes : worker-nodes
+- Node Type : t2.micro
+- Number of nodes: -nodes 2
+
+### The command is
+```
+Name of the cluster : --name dele-test-cluster
+Version of Kubernetes : --version 1.17
+Region : --name eu-west-2
+Nodegroup name/worker nodes : worker-nodes
+Node Type : t2.micro
+Number of nodes: -nodes 2
+```
