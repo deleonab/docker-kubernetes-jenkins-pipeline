@@ -143,3 +143,14 @@ chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 ```
 ### Next I will install eksctl - for creating and managing clusters on EKS - Amazon's managed Kubernetes service for EC2
+```
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+```
+### Move
+```
+sudo mv /tmp/eksctl /usr/local/bin
+```
+### Verify installation
+```
+eksctl version
+```
