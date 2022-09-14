@@ -158,6 +158,17 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 eksctl version
 ```
+```
+jenkins@ip-172-31-10-104:~$ kubectl version
+WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.
+Client Version: version.Info{Major:"1", Minor:"25", GitVersion:"v1.25.0", GitCommit:"a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2", GitTreeState:"clean", BuildDate:"2022-08-23T17:44:59Z", GoVersion:"go1.19", Compiler:"gc", Platform:"linux/amd64"}
+Kustomize Version: v4.5.7
+Error from server (Forbidden): <html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fversion%3Ftimeout%3D32s'/><script>window.location.replace('/login?from=%2Fversion%3Ftimeout%3D32s');</script></head><body style='background-color:white; color:white;'>
+
+```
+
+
+
 ### I will now create the kubernetes clusters as follows
 - Name of the cluster : --name dele-test-cluster
 - Version of Kubernetes : --version 1.23
