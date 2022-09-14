@@ -187,7 +187,18 @@ jenkins@ip-172-31-10-104:~$
 
 ### The command is
 ```
-eksctl create cluster --name dele-test-cluster --version 1.23 --region eu-west-2 --nodegroup-name worker-nodes --node-type t2.micro --nodes 2
+eksctl create cluster --name bandele-test-cluster --version 1.23 --region eu-west-2 --nodegroup-name worker-nodes --node-type t2.micro --nodes 2
 ```
 
-## KUBECTL VERSION IS v1.25.0
+## KUBECTL VERSION WAS v1.25.0
+I removed the installed version with
+```
+sudo rm /usr/local/bin/kubectl
+```
+and installed a new version 1.23
+```
+
+```
+### cluster successfully created with nodes
+
+![worker-nodes](./images/worker-nodes.JPG)
