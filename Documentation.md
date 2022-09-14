@@ -98,7 +98,9 @@ docker --version
 ```
 ### As Jenkins will be accessing docker to build images , we need to add it to the docker grouo as it will be running some docker commands
 ```
-sudo usermod -aG docker jenkins
+jenkins@ip-172-31-10-104:~$ docker --version
+Docker version 20.10.12, build 20.10.12-0ubuntu4
+jenkins@ip-172-31-10-104:~$ sudo usermod -aG docker jenkins
 ```
 ### I ran docker image ls to see list of docker images
 ```
