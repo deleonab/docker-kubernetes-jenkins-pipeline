@@ -156,7 +156,7 @@ eksctl version
 ```
 ### I will now create the kubernetes clusters as follows
 - Name of the cluster : --name dele-test-cluster
-- Version of Kubernetes : --version 1.17
+- Version of Kubernetes : --version 1.23
 - Region : --name eu-west-2
 - Nodegroup name/worker nodes : worker-nodes
 - Node Type : t2.micro
@@ -164,10 +164,5 @@ eksctl version
 
 ### The command is
 ```
-Name of the cluster : --name dele-test-cluster
-Version of Kubernetes : --version 1.17
-Region : --name eu-west-2
-Nodegroup name/worker nodes : worker-nodes
-Node Type : t2.micro
-Number of nodes: -nodes 2
+eksctl create cluster --name dele-test-cluster --version 1.23 --region eu-west-2 --nodegroup-name worker-nodes --node-type t2.micro --nodes 2
 ```
