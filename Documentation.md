@@ -170,7 +170,11 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 eksctl version
 ```
-
+```
+jenkins@ip-172-31-10-104:~$ eksctl version
+0.111.0
+jenkins@ip-172-31-10-104:~$
+```
 
 
 ### I will now create the kubernetes clusters as follows
