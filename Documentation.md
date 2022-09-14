@@ -202,3 +202,6 @@ and installed a new version 1.23
 ### cluster successfully created with nodes
 
 ![worker-nodes](./images/worker-nodes.JPG)
+
+### The next step is to add the Docker and GitHub Credentials into Jenkins
+
