@@ -181,3 +181,5 @@ Error from server (Forbidden): <html><head><meta http-equiv='refresh' content='1
 ```
 eksctl create cluster --name dele-test-cluster --version 1.23 --region eu-west-2 --nodegroup-name worker-nodes --node-type t2.micro --nodes 2
 ```
+
+## KUBECTL VERSION IS v1.25.0
