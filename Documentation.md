@@ -101,6 +101,8 @@ docker --version
 jenkins@ip-172-31-10-104:~$ docker --version
 Docker version 20.10.12, build 20.10.12-0ubuntu4
 jenkins@ip-172-31-10-104:~$ sudo usermod -aG docker jenkins
+jenkins@ip-172-31-10-104:~$ aws --version
+aws-cli/1.22.34 Python/3.10.4 Linux/5.15.0-1011-aws botocore/1.23.34
 ```
 ### I ran docker image ls to see list of docker images
 ```
