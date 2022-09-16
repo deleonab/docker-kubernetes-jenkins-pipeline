@@ -205,6 +205,8 @@ and installed a new version 1.23
 
 ### The next step is to add the Docker and GitHub Credentials into Jenkins
 
+
+
 ```
 node {
 
@@ -239,3 +241,7 @@ node {
     }
 } 
 ```
+
+![successful build and deployment](./images/pipeline.JPG)
+
+CICD pipeline successfully executed
