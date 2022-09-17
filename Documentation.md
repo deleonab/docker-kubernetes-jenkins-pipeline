@@ -244,4 +244,6 @@ node {
 
 ![successful build and deployment](./images/pipeline.JPG)
 
-CICD pipeline successfully executed
+### CICD pipeline successfully executed
+
+![success](./images/cicd-kubernetes2.jpg)
